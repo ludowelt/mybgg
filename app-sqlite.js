@@ -1683,7 +1683,7 @@ function updateStats() {
   if (totalGames !== totalAllGames) {
     statsText += ` of ${totalAllGames.toLocaleString()}`;
   }
-  statsContainer.textContent = `${statsText} games`;
+  statsContainer.textContent = `${statsText} Spiele`;
 }
 
 function createPaginationButton(page, text, isCurrent = false) {
