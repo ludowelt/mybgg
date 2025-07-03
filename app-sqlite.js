@@ -283,7 +283,7 @@ function setupSorting() {
   const options = [
     { value: 'name', text: 'Name (A-Z)' },
     { value: 'rank', text: 'BGG Rank' },
-    { value: 'rating', text: 'Rating' },
+    { value: 'rating', text: 'Bewertung' },
     { value: 'numowned', text: 'Most Owned' },
     { value: 'numrated', text: 'Most Rated' }
   ];
