@@ -1,7 +1,7 @@
 // Configuration loaded from HTML data attributes
 const CONFIG = (() => {
   return {
-    GAMES_PER_PAGE: 48,
+    GAMES_PER_PAGE: 100,
     MAX_DESCRIPTION_LENGTH: 400,
     GAUGE_RADIUS: 10,
     COMPLEXITY_THRESHOLDS: [1.5, 2.5, 3.5, 4.5],
@@ -9,7 +9,7 @@ const CONFIG = (() => {
     PLAYING_TIMES: ['< 30min', '30min - 1h', '1-2h', '2-3h', '3-4h', '> 4h'],
     SORT_OPTIONS: [
       { value: 'name', text: 'Name (A-Z)' },
-      { value: 'rank', text: 'BGG Rank' },
+      { value: 'rank', text: 'BGG Rang' },
       { value: 'rating', text: 'Bewertung' },
       { value: 'numowned', text: 'Most Owned' },
       { value: 'numrated', text: 'Most Rated' }
@@ -282,7 +282,7 @@ function setupSorting() {
 
   const options = [
     { value: 'name', text: 'Name (A-Z)' },
-    { value: 'rank', text: 'BGG Rank' },
+    { value: 'rank', text: 'BGG Rang' },
     { value: 'rating', text: 'Bewertung' },
     { value: 'numowned', text: 'Most Owned' },
     { value: 'numrated', text: 'Most Rated' }
