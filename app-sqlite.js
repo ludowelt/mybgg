@@ -10,9 +10,7 @@ const CONFIG = (() => {
     SORT_OPTIONS: [
       { value: 'name', text: 'Name (A-Z)' },
       { value: 'rank', text: 'BGG Rang' },
-      { value: 'rating', text: 'Bewertung' },
-      { value: 'numowned', text: 'Most Owned' },
-      { value: 'numrated', text: 'Most Rated' }
+      { value: 'rating', text: 'Bewertung' }
     ]
   };
 })();
@@ -283,9 +281,7 @@ function setupSorting() {
   const options = [
     { value: 'name', text: 'Name (A-Z)' },
     { value: 'rank', text: 'BGG Rang' },
-    { value: 'rating', text: 'Bewertung' },
-    { value: 'numowned', text: 'Most Owned' },
-    { value: 'numrated', text: 'Most Rated' }
+    { value: 'rating', text: 'Bewertung' }
   ];
 
   options.forEach(({ value, text }) => {
